@@ -1,4 +1,3 @@
-require("dotenv").config();
 const express = require('express');
 const mongoose = require('mongoose');
 
@@ -11,7 +10,6 @@ app.use(express.urlencoded({ extended: true }));
 app.use(require('./routes'));
 
 mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost:27017/thoughtful-social-network', {
-    // these are true by default in mongo v6, don't actually need these settings
     useNewUrlParser: true,
     useUnifiedTopology: true
 });
