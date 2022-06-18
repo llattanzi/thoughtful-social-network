@@ -10,7 +10,7 @@ const {
   } = require('../../controllers/thought-controller');
 
 //  GET all thoughts at /api/thoughts
-router.route('/').get(getAllThought);
+router.route('/').get(getAllThoughts);
 
 // GET thought by id
 router.route('/:thoughtId').get(getThoughtById);
