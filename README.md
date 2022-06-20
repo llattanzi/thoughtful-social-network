@@ -3,6 +3,7 @@
 
   ## Description:
   A backend for a social networking platform where users can share their thoughts, add friends, and react to thoughts.
+  Link to walkthrough video: https://drive.google.com/file/d/1tHSGKKkim9XKw8mnKr7Hj0WAsQGJRS2F/view
 
   ## Table of Contents
   - [Description](#description)
